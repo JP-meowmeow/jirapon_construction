@@ -1668,7 +1668,7 @@ html {
   background-color: rgb(201 161 73 / var(--tw-bg-opacity, 1));
 }
 
-.bg-base-100 {
+.bg-white  {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity, 1)));
 }
