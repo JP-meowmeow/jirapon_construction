@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/output.css" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>รับเหมาก่อสร้าง</title>
+  </head>
+  <body class="font-kanit overflow-x-auto bg-white">
+    <!-- Navbar -->
+    <div class=" relative bg-cover bg-center h-[50%]" style="background-image: url('https://res.cloudinary.com/dhwgh6rof/image/upload/v1734074298/background-construction_k5pahv.jpg');">
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <!-- Content goes here -->
+    <section id="ourHome" class="relative z-10 text-white p-8">
+      <nav  class=" sm:px-10 flex items-center justify-center gap-10 sm:justify-center w-full">
+        
+        <!-- navbar dropdown for mobile -->
+        <section class="mobile sm:hidden m-3 flex gap-5 justify-center items-center ">
+          <div class="flex flex-col">
+            <p class="text-lg font-bold" >ติดต่อเรา 082-5680865 (คำ)</p>
+            <p class="text-lg font-bold" >Line : 0838631034</p>
+          </div>
+          <div class="logo">
+            <a >
+              <img src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733932301/trans_bg_jtjoc6.png" class="w-20 top-0 object-contain">
+            </a>
+          </div>
+          <ul class="">
+            <li class="relative group">
+              <a href="#" class="text-white hover:text-gray-300 flex items-center space-x-1">
+                <span class="text-gray-500 text-2xl">☰</span>
+                </svg>
+              </a>
+              <ul class="absolute right-0 top-16 bg-gray-800 w-72 shadow-lg rounded py-2 z-50 hidden group-hover:block">
+                <li><a id="jumpToOurPromotion" class="block px-4 py-2 text-white hover:bg-gray-700">โปรโมชั่น</a></li>
+                <li><a id="jumpToOurProjects" class="cursor-pointer block px-4 py-2 text-white hover:bg-gray-700">ผลงานของเรา</a></li>
+                <li><a id="jumpToOurService" class="cursor-pointer block px-4 py-2 text-white hover:bg-gray-700">บริการของเรา</a></li>
+                <li><a id="jumpToOurContact" class="cursor-pointer block px-4 py-2 text-white hover:bg-gray-700">ติดต่อเรา</a></li>
+                <li><a id="jumpToOurQA" class="block px-4 py-2 text-white hover:bg-gray-700">คำถามที่พบบ่อย</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </section>
+        <div class="desktop sm:flex items-center hidden">
+          <div class="flex gap-5">
+            <a id="jumpToOurHome" class="cursor-pointer text-xl font-bold" >หน้าแรก</a>
+            <a id="jumpToOurProjectsDesktop"  class="cursor-pointer text-xl font-bold" >ผลงานของเรา</a>
+            <a id="jumpToOurServiceDesktop" class=" cursor-pointer text-xl font-bold" >เกี่ยวกับเรา</a>
+            <a id="jumpToOurContactDesktop" class="cursor-pointer text-xl font-bold" >ติดต่อเรา</a>
+            <a id="jumpToOurPromotionDesktop" class="cursor-pointer text-xl font-bold" >โปรโมชั่น</a>
+            <a id="jumpToOurQADesktop" class="cursor-pointer text-xl font-bold" >คำถามที่พบบ่อย</a>
+          </div>
+          <div class="logo">
+            <a >
+              <img src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733932301/trans_bg_jtjoc6.png" class="w-40 top-0 object-contain">
+            </a>
+          </div>
+          <img
+            src="https://www.svgrepo.com/show/526083/phone-calling-rounded.svg"
+            alt=""
+            class="w-10 h-5 inline-block"
+          />
+          <p class="text-xl font-bold" href="">ติดต่อเรา 082-5680865 (คำ)</p>
+          <img
+            src="https://www.svgrepo.com/show/500923/line.svg"
+            alt=""
+            class="w-10 h-6 inline-block"
+          />
+          <p class="text-xl font-bold" href="">Line : 0838631034</p>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Hero contents -->
+    <section class="relative text-white ">
+      <div  class="flex h-[300px] items-center justify-center">
+        <div class="text-center">
+          <div class="container m-auto w-[100%] font-bold text-3xl my-5">
+            <p class="my-5">บริษัท Jirapon Construction</p>
+            <span class="auto-type text-[#4b89f3]"></span>
+          </div>
+          <p class="px-10 sm:px-32">
+            ดำเนินธุรกิจ รับเหมาก่อสร้าง รับก่อสร้างบ้าน , อาคารสำนักงาน ,
+            โรงแรม , อพาร์ทเม้นท์ , โรงงาน โกดัง , ห้องเย็น , งานLandscape ,
+            โครงการจัดสรรแนวราบ ทั้งขนาดเล็ก และขนาดใหญ่
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+    <div class="w-3/4 mx-auto ">
+      <div  id="ourProjects" class=" divider font-bold text-xl sm:text-2xl mt-10">"ผลงานของเรา"</div>
+  </div>
+    <!-- card -->
+    <section  class="container mx-auto sm:px-4 sm:py-4">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-8xl mx-auto"
+      >
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                alt="ก่อสร้าง"
+                class="w-full h-auto aspect-square object-cover mb-4"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                class="w-full h-auto aspect-square object-cover mb-4"
+                alt="ก่อสร้าง"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                class="w-full h-auto aspect-square object-cover mb-4"
+                alt="ก่อสร้าง"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                class="w-full h-auto aspect-square object-cover mb-4"
+                alt="ก่อสร้าง"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                alt="ก่อสร้าง"
+                class="w-full h-auto aspect-square object-cover mb-4"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                alt="ก่อสร้าง"
+                class="w-full h-auto aspect-square object-cover mb-4"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                alt="ก่อสร้าง"
+                class="w-full h-auto aspect-square object-cover mb-4"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        <div class="card bg-base-100 w-3/4 sm:w-full shadow-xl mx-auto">
+          <div class="card-body flex flex-col justify-center items-center">
+            <figure>
+              <img
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926554/1080_px_x_1080_px_allavg.png"
+                alt="ก่อสร้าง"
+                class="w-full h-auto aspect-square object-cover mb-4"
+              />
+            </figure>
+            <h2 class="text-2xl font-bold mb-2">ถมดิน</h2>
+            <p class="text-center">งานถมดิน</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="flex justify-center my-5">
+        <a href="./src/pages/projects.html">
+          <button class="btn btn-wide" >ดูทั้งหมด</button>
+        </a>
+      </div>
+    </section>
+    <!-- Promotion -->
+    <div class="w-3/4 mx-auto ">
+      <div  id="ourPromotion" class=" divider font-bold text-xl sm:text-2xl">"โปรโมชั่น"</div>
+    </div>
+    <section >
+      <img src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926977/%E0%B9%85_dsqt3k.png" alt="Promotion1" class="w-[75%] m-auto my-10">
+      <img src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733926977/%E0%B9%85_dsqt3k.png" alt="Promotion2" class="w-[75%] m-auto my-10">
+    </section>
+    <!-- Question -->
+    <section class="Q&A ">
+
+      <div class="w-3/4 mx-auto ">
+        <div  id="ourPromotion" class=" divider font-bold text-xl sm:text-2xl">"คำถามที่พบบ่อย"</div>
+      </div>
+      <div class="space-y-4 p-4 mx-[10px] sm:mx-[25%]">
+        <!-- Box 1 -->
+        <div class="bg-[#c9a14950] text-gray-700 rounded-lg cursor-pointer">
+          <h2 class="font-bold bg-[#c9a14950] text-lg p-5 rounded-t-lg">1. วัสดุที่ใช้ในมาตรฐานก่อสร้างเป็นอย่างไร?</h2>
+          <p class="text-sm bg-[#c9a149] p-5 rounded-b-lg shadow-lg">
+            <span class="font-bold">คำตอบ :</span>งานโครงสร้าง ใช้วัสดุฐานทวีวิศวกรรมบุในแบบแปลน เช่น เหล็กโรงใหญ่ มี มอก. เช่นเดียวกับงาน
+            สถาปัตยกรรม วัสดุมาตรฐานรับรอง มอก.เกรด A (กระเบื้องมุงหลังคา, กระเบื้องปูพื้น, สี, สุขภัณฑ์, ประตู ฯลฯ)
+            ซึ่งลูกค้าสามารถเลือกได้ตามมาตรรองการกับบริษัทกำหนด
+          </p>
+        </div>
+      
+        <!-- Box 2 -->
+        <div class="bg-[#c9a14950] text-gray-700 rounded-lg cursor-pointer ">
+          <h2 class="font-bold bg-[#c9a14950] text-lg p-5 rounded-t-lg">2. มีการรับประกันสร้างบ้านหลังการขายกี่ปี?</h2>
+          <p class="text-sm bg-[#c9a149] p-5 rounded-b-lg shadow-lg">
+            <span class="font-bold">คำตอบ :</span> ในส่วนการประกันโครงสร้างรับประกัน 10 ปี และในส่วนอื่นๆ อาทิ สี, ระบบน้ำ, ระบบไฟ, หรือ หลังคา มีการ
+            รับประกัน 1 ปี
+          </p>
+        </div>
+        <!-- Box 3 -->
+        <div class="bg-[#c9a14950] text-gray-700 rounded-lg cursor-pointer ">
+          <h2 class="font-bold bg-[#c9a14950] text-lg p-5 rounded-t-lg">3. บริษัทสามารถให้คำปรึกษาเรื่องกู้ได้ไหม มีระบบสินเชื่อ หรือ MOU กับทางธนาคารไหม?</h2>
+          <p class="text-sm bg-[#c9a149] p-5 rounded-b-lg shadow-lg">
+            <span class="font-bold">คำตอบ :</span> บริษัททำ MOU กับสินเชื่อธนาคารหลายธนาคาร สามารถช่วยผลักดันดูแลเรื่องการกู้ได้ ซึ่งหากรายได้ และความสามารถในการผ่อนส่ง / ประวัติบูโล ของลูกค้าผ่านเกณฑ์ธนาคาร ก็จะสามารถกู้ได้
+          </p>
+        </div>
+        <!-- Box 4 -->
+        <div class="bg-[#c9a14950] text-gray-700 rounded-lg cursor-pointer ">
+          <h2 class="font-bold bg-[#c9a14950] text-lg p-5 rounded-t-lg">4. บ้านจะใช้ระยะเวลาในการก่อสร้างเท่าไหร่ และ มีการแบ่งชำระค่างวดอย่างไรบ้าง??</h2>
+          <p class="text-sm bg-[#c9a149] p-5 rounded-b-lg shadow-lg">
+            <span class="font-bold">คำตอบ :</span> ระยะเวลาสร้างบ้านขึ้นอยู่กับขนาดและรายละเอียดของงานโดยทั่วไป 1-2 เดือน การชำระจะแบ่งชำระเป็นงวดๆ ขึ้นอยู่กับงานและเลือกประเภทการชำระ (ชำระด้วยเงินสด หรือ ชำระด้วยสินเชื่อ)
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- service explain -->
+    <!-- <section class="bg-gray-50 text-gray-800"> -->
+    <section id="ourService" class="bg-[#c9a14950] text-gray-800">
+      <div class="max-w-7xl mx-auto py-6 px-6">
+        <h1 class="text-center text-2xl font-bold mb-8">
+          ทำไมถึงต้องเลือกใช้บริการกับเรา
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 w-[100%]">
+          <!-- Service 1 -->
+          <div class="text-center">
+            <div class="flex justify-center mb-4">
+              <img
+                src="https://www.svgrepo.com/show/439316/service-workers.svg"
+                alt="Service Icon"
+                class="h-[100px] md:h-[150px]"
+              />
+            </div>
+            <h2 class="text-lg font-semibold mb-2">บริการยอดเยี่ยม</h2>
+            <p class="text-sm text-gray-600">
+              เราทำการให้คำปรึกษา วางแผน ดูแล ช่วยเหลือ รวมไปถึงสร้างรอยยิ้ม
+              ให้ทุกโปรเจคของลูกค้าประสบความสำเร็จ
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="text-center">
+            <div class="flex justify-center mb-4">
+              <img
+                src="https://www.svgrepo.com/show/396603/hammer-and-wrench.svg"
+                alt="Experience Icon"
+                class="h-[100px] md:h-[150px]"
+              />
+            </div>
+            <h2 class="text-lg font-semibold mb-2">ประสบการณ์ยาวนาน</h2>
+            <p class="text-sm text-gray-600">
+              เรามีช่างมืออาชีพที่มีประสบการณ์ทำงานจริงกว่า 30 ปี
+              วัสดุและเครื่องจักรที่ใช้ผ่านการตรวจสอบคุณภาพและมาตรฐาน
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="text-center">
+            <div class="flex justify-center mb-4">
+              <img
+                src="https://www.svgrepo.com/show/277386/cement.svg"
+                alt="Quality Icon"
+                class="h-[100px] md:h-[150px]"
+              />
+            </div>
+            <h2 class="text-lg font-semibold mb-2">วัสดุคุณภาพ</h2>
+            <p class="text-sm text-gray-600">
+              เราใช้วัสดุในการทำถนนและใช้วัสดุในการก่อสร้างที่มีคุณภาพ
+              เพื่อให้งานของเราออกมาทนทาน ใช้งานได้ยาวนาน
+            </p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="text-center">
+            <div class="flex justify-center mb-4">
+              <img
+                src=" https://www.svgrepo.com/show/296298/engineer-worker.svg"
+                alt="Professional Icon"
+                class="h-[100px] md:h-[150px]"
+              />
+            </div>
+            <h2 class="text-lg font-semibold mb-2">เป็นมืออาชีพ</h2>
+            <p class="text-sm text-gray-600">
+              มีการรับประกันผลงาน ทุกงาน (ตามเงื่อนไขของบริษัท)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- contact us -->
+     <!-- <div class="divider"></div> -->
+    <section id="ourContact" class="text-gray-800">
+      <div class="w-full mx-auto py-6 px-6">
+        <div class="flex justify-center flex-col sm:flex-row gap-10">
+          <div class="flex">
+            <img src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733932301/trans_bg_jtjoc6.png" class="w-32 top-0 object-contain">
+            <div class="flex flex-col">
+
+              <p class="font-bold">ห้างหุ้นส่วนจํากัด Jirapon Construction </p>
+              <p>141/528 ธารทิพย์วิลล่า ต.ต้นเปา อ.สันกำแพง จ.เชียงใหม่ 50130</p>
+              <p>จันทร์ – ศุกร์ (08.30 น. – 17.30 น.)</p>
+              <p>เสาร์ (08.30 น. – 15.30 น.)</p>
+              <p>        
+                ยกเว้นวันอาทิตย์และวันหยุดนักขัตฤกษ์</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center sm:items-start ">
+            <p class="text-md font-bold" >ติดต่อเรา 082-5680865 (คำ)</p>
+            <p class="text-md font-bold" >Line : 0838631034</p>
+            <p class="text-md font-bold" >Facebook : เช่ารถแมคโคร รับเหมาก่อสร้าง ครบวงจร</p>
+            <ul class="flex">
+              <li>
+                <a href="https://www.facebook.com/muiseecon">
+
+                <img src="https://www.svgrepo.com/show/500854/facebook.svg" alt="" class="w-12">
+              </a>
+            </li>
+           
+              <li> <a href=""><img src="https://www.svgrepo.com/show/447139/line-fill.svg" alt="" class="w-10 mt-1"></a>
+                </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    
+
+    <!-- button -->
+    <button id="jumpToOurHomeDesktop" class="btn btn-sm fixed bottom-5 right-5 text-lg">&#9650</button>
+
+
+
+
+  </body>
+  <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["รับก่อสร้างบ้าน", "ทำถนน", "รับถมที่ดิน", "ปรับหน้าดิน"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+</html>
