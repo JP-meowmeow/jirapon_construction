@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    h2 {
-        @apply text-2xl font-bold;
-    }
+/* Custom keyframes for animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-40%);
+  }
 }
 
-@layer components {
-
-    .container {
-        font-size: 24px;
-    }
-
-
-}
-
-@layer utilities {
+/* Custom animation class */
+.animate-scroll {
+  animation: scroll 15s linear infinite;
+  display: flex;
+  will-change: transform;
 }
