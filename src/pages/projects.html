@@ -18,9 +18,13 @@
     <title>ผลงานของเรา</title>
 </head>
 <body class="font-kanit overflow-x-auto bg-white">
+  <div class=" relative bg-cover bg-center h-[50%]" style="background-image: url('https://res.cloudinary.com/dhwgh6rof/image/upload/v1734074298/background-construction_k5pahv.jpg');">
+    
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
     <!-- Navbar -->
-    <section id="ourHome">
-        <nav  class="bg-[#e4b96e]   sm:px-10 flex items-center justify-center gap-10 sm:justify-center w-full">
+    <section id="ourHome" class="relative z-10 text-white p-8">
+        <nav  class="  sm:px-10 flex items-center justify-center gap-10 sm:justify-center w-full">
           
           <!-- navbar dropdown for mobile -->
           <section class="mobile sm:hidden m-3 flex gap-5 justify-center items-center ">
@@ -79,10 +83,10 @@
           </div>
         </nav>
       </section>
-
+    </div>
       <!-- project card -->
       <div class="w-3/4 mx-auto mt-10">
-        <div id="ourProjects" class="divider font-bold text-xl sm:text-2xl">"ผลงานของเรา"</div>
+        <div  class="divider font-bold text-xl sm:text-2xl">"ผลงานของเรา"</div>
       </div>
       <section  class="container mx-auto sm:px-4 sm:py-4">
         <div
@@ -303,7 +307,47 @@
           </a>
         </div> -->
       </section>
+      <section id="ourContact" class="text-gray-800">
+        <div class="w-full mx-auto py-6 px-6">
+          <div class="flex justify-center flex-col sm:flex-row gap-10">
+            <div class="flex">
+              <img src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1733932301/trans_bg_jtjoc6.png" class="w-32 top-0 object-contain">
+              <div class="flex flex-col">
+  
+                <p class="font-bold">ห้างหุ้นส่วนจํากัด Jirapon Construction </p>
+                <p>141/528 ธารทิพย์วิลล่า ต.ต้นเปา อ.สันกำแพง จ.เชียงใหม่ 50130</p>
+                <p>จันทร์ – ศุกร์ (08.30 น. – 17.30 น.)</p>
+                <p>เสาร์ (08.30 น. – 15.30 น.)</p>
+                <p>        
+                  ยกเว้นวันอาทิตย์และวันหยุดนักขัตฤกษ์</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center sm:items-start ">
+              <p class="text-md font-bold" >ติดต่อเรา 082-5680865 (คำ)</p>
+              <p class="text-md font-bold" >Line : 0838631034</p>
+              <p class="text-md font-bold" >Facebook : เช่ารถแมคโคร รับเหมาก่อสร้าง ครบวงจร</p>
+              <ul class="flex">
+                <li>
+                  <a href="https://www.facebook.com/muiseecon">
+  
+                  <img src="https://www.svgrepo.com/show/500854/facebook.svg" alt="" class="w-12">
+                </a>
+              </li>
+             
+                <li> <a href=""><img src="https://www.svgrepo.com/show/447139/line-fill.svg" alt="" class="w-10 mt-1"></a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      
+      
+  
+      <!-- button -->
+      <button id="jumpToOurHomeDesktop" class="btn btn-sm fixed bottom-5 right-5 text-lg">&#9650</button>
 
 </body>
-<script src="/script.js"></script>
+<script src="../pages/projectScript.js"></script>
 </html>
